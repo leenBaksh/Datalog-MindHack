@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right;
+  margin: 15px 15px;
+}
+
+.logo{
+  height: auto;
+  width: auto;
+}
+.logoimage{
+  height: 49px;
+  width: 69px;
+}
