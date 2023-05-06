@@ -7,7 +7,7 @@
 .main{
   display: flex;
   flex-direction: column;
-  justify-content: right;
+  justify-content: left;
   align-items: right;
   margin: 15px 15px;
 }
@@ -16,7 +16,15 @@
   height: auto;
   width: auto;
 }
-.logoimage{
-  height: 49px;
-  width: 69px;
+.logo img{
+  height: 59px;
+  width: 149px;
+}
+.header{
+  height: auto;
+  width: auto;
+}
+.header img{
+  height: 1000;
+  width: 350;
 }
