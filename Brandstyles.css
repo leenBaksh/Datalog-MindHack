@@ -1,0 +1,32 @@
+
+*{
+  
+  margin: 0;
+  padding: 0;
+
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: right;
+  margin: 15px 15px;
+}
+
+.logo{
+  height: auto;
+  width: auto;
+}
+.logo img{
+  height: 59px;
+  width: 149px;
+}
+.banner{
+  height: auto;
+  width: auto;
+}
+.banner img{
+  height: 1000px;
+  width: 900px;
+}
