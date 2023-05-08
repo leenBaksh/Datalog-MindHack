@@ -26,16 +26,26 @@ html,body{
 a,
 a:hover{
     text-decoration: none;
+    outline: 0;
 }
 
 a:hover{
     color: var(--primary-color);
 }
 
+li{
+    list-style: none;
+}
+ul{
+    padding: none;
+    margin: 0;
+}
+
 ul,
 ol{
     margin: 0;
     padding: 0;
+    padding-left: 0;
 }
 /*---------Variables Define-------*/
 :root{
@@ -101,27 +111,111 @@ h2{
 
 
 
-.main{
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-  align-items: right;
-  margin: 15px 15px;
+/* Footer Section */
+h3{
+    margin: 0;
+    font-weight: 400;
+    padding: 0;
+    color: #fff;
+}
+p{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+}
+.footer-big{
+    padding: 80px 0 20px 0;
+}
+.footer-big .footer-widget{
+    margin-bottom: 40px;
 }
 
-.logo{
-  height: auto;
-  width: auto;
+.footer-light{
+    background: #fff;
 }
-.logo img{
-  height: 59px;
-  width: 149px;
+
+.footer-big .footer-menu ul li a,
+.footer-big p,
+.footer-big ul li{
+    color: #898b96;
 }
-.banner{
-  height: auto;
-  width: auto;
+.footer-menu{
+    padding-left: 48px;
 }
-.banner img{
-  height: 1000px;
-  width: 900px;
+.footer-menu ul li a{
+    font-size: 1rem;
+    line-height: 32px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.footer-menu ul li a:hover{
+    color:#000
+}
+.footer-widget-title{
+    line-height: 30px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-left: 2rem;
+}
+.footer-light hr{
+    border-top-color:#bbb ;
+    opacity: 0.5;
+}
+.footer-light hr.small{
+    margin: 20px 0;
+}
+.footer-light .social-icons{
+    text-align: right;
+}
+.footer-light .social-icons a{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 6px;
+    margin-right: 0;
+    border-radius: 100%;
+    background-color: #33353d;
+}
+.social-icons{
+    padding-left: 0;
+    margin-bottom: 20px;
+    list-style: none;
+}
+.social-icons li{
+    display: inline;
+    margin-bottom: 4px;
+}
+.social-icons li.title{
+    margin-right: 15px;
+    text-transform: uppercase;
+    color:#96a2b2;
+    font-weight: 700;
+    font-size: 13px;
+}
+.social-icons a{
+    background-color: #eceeef;
+    color: #818a91;
+    font-size: 20px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover{
+    color: #fff;
+    background-color: #29aafe;
+}
+
+.social-icons a:hover{
+    font-size: 30px;
 }
