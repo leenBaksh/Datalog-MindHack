@@ -287,7 +287,7 @@ h3{
     margin: 0;
     font-weight: 300;
     padding: 0;
-    color: #000000;
+    color: #070707;
 }
 p{
     font-size: 16px;
@@ -302,12 +302,12 @@ p{
 }
 
 .footer-light{
-    background: #fffefe;
+    background: #ffffff;
 }
 .footer-big .footer-menu ul li a,
 .footer-big p,
 .footer-big ul li{
-    color: #030303;
+    color: #050505;
 }
 .footer-menu{
     position: relative;
