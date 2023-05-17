@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #ffa43d;
+    background-size:30%;
+    margin: 0%;
+    padding: 0%;
+    position: block;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:active,
+:hover,
+:focus {
+    outline: 0 !important;
+    outline-offset: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    outline: 2;
+}
+
+a:hover {
+    color: var(--primary-color);
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: none;
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    padding-left:0;
+}
+
+
+/*---------Variables Define-------*/
+:root {
+    --primary-color: #3368FF;
+    --secondary-color: #3368FF;
+    --grey-color: #E0E0E0;
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Quicksand', sans-serif;
+    --yellow-color: #CEA02E;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    font-family: var(--primary-font);
+    font-size: 100%;
+    font-weight: 200;
+    text-align:center;
+}     
+
+::-webkit-scrollbar {
+    width: 0.625rem
+}
+
+::-webkit-scrollbar-track {
+    background: var(--primary-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+}
+
+h1 {
+    font-size: 5rem;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    margin-left:10% ;
+    margin-right: 10%;
+    font-weight: 700;
+    margin-bottom: 4rem;
+    color: var(--secondary-color);
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.25rem;
+    text-transform: capitalize;
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+    line-height: 3rem;
+}
+
+/*------------Navbar--------------*/
+
+.logo .nav-underline {
+    justify-items: left;
+}
+
+.btn .btn-primary {
+    border-radius: 45%;
+}
+
+.c-item {
+    height: 700px;
+}
+
+.c-item {
+    height: 600%;
+    object-fit: cover;
+}
+
+/*** menubar ***/
+.btn-primary{
+    justify-items: right;
+    font-size: medium;
+
+}
+.li-ul-btn {
+    text-align: center;
+    position: relative;
+}
+
+
+/*___________ Our Benifits and Card Section ___________*/
+.vedio {
+   position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Footer Section */
+
+
+
+  h3{
+    margin: 0;
+    font-weight: 300;
+    padding: 0;
+    color: #070707;
+}
+p{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+}
+.footer-big{
+    padding: 80px 0 20px 0;
+}
+.footer-big .footer-widget{
+    margin-bottom: 40px;
+}
+
+.footer-light{
+    background: #ffffff;
+}
+.footer-big .footer-menu ul li a,
+.footer-big p,
+.footer-big ul li{
+    color: #050505;
+}
+.footer-menu{
+    position: relative;
+    margin: 0p;
+    padding-left: 48px;
+}
+.footer-menu ul li a{
+    font-size: 1rem;
+    line-height: 32px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.footer-menu ul li a:hover{
+    color:#000
+}
+.footer-widget-title{
+    line-height: 30px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-left: 2rem;
+}
+.footer-light hr{
+    border-top-color:#bbb ;
+    opacity: 0.5;
+}
+.footer-light hr.small{
+    margin: 20px 0;
+}
+.footer-light .social-icons{
+    text-align: right;
+}
+.footer-light .social-icons a{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 6px;
+    margin-right: 0;
+    border-radius: 100%;
+    background-color: #33353d;
+}
+.social-icons{
+    padding-left: 0;
+    margin-bottom: 20px;
+    list-style: none;
+}
+.social-icons li{
+    display: inline;
+    margin-bottom: 4px;
+}
+.social-icons li.title{
+    margin-right: 15px;
+    text-transform: uppercase;
+    color:#96a2b2;
+    font-weight: 700;
+    font-size: 13px;
+}
+.social-icons a{
+    background-color: #eceeef;
+    color: #818a91;
+    font-size: 20px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover{
+    color: #fff;
+    background-color: #29aafe;
+}
+
+.social-icons a:hover{
+    font-size: 30px;
+}
